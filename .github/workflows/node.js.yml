@@ -29,7 +29,7 @@ jobs:
         run: ls -la
 
       - name: List files in build directory (Debug Step)
-        run: ls -la ./build
+        run: ls -la ./dist
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
