@@ -27,7 +27,7 @@
     min-height: calc(100vh - 100px);
     background-color: var(--background);
     color: var(--text);
-    padding: 8vw;
+    padding: 8vw; 
     border-left: 1px solid var(--main-border);
     border-right: 1px solid var(--main-border);
 }
